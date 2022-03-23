@@ -1,0 +1,79 @@
+h2{
+    text-align: center;
+}
+.container{
+    width: 1050px;
+    height: 500px;
+    background-color: silver;
+    margin: auto;
+    position: relative;
+    border-style: solid;
+}
+img{
+    position: absolute;
+    object-fit: cover;
+}
+.corner{
+    width: 200px;
+    height: 200px;
+}
+.spring{
+    top:0px;
+    left:0px;
+}
+.summer{
+    top:0px;
+    right:0px;
+}
+.winter{
+    bottom:0px;
+    left:0px;
+}
+.autumn{
+    bottom:0px;
+    right:0px;
+}
+.inner{
+    width: 150px;
+    height: 150px;
+}
+.inner-1{
+    top:40px;
+    left:230px;
+    z-index:1;
+}
+.inner-2{
+    top:100px;
+    left:260px;
+    z-index:2;
+}
+.inner-3{
+    top:160px;
+    left:290px;
+    z-index:3;
+}
+.inner-4{
+    top:250px;
+    left:373px;
+    z-index:4;
+}
+.inner-5{
+    top:250px;
+    right:373px;
+    z-index:4;
+}
+.inner-6{
+    top:160px;
+    right:290px;
+    z-index:3;
+}
+.inner-7{
+    top:100px;
+    right:260px;
+    z-index:2;
+}
+.inner-8{
+    top:40px;
+    right:230px;
+    z-index:1;
+}
